@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC1521B1E128CFB00AD5030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1521A1E128CFB00AD5030 /* AppDelegate.swift */; };
+		3FC1521D1E128CFB00AD5030 /* SantaTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1521C1E128CFB00AD5030 /* SantaTrackerViewController.swift */; };
+		3FC152201E128CFB00AD5030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1521E1E128CFB00AD5030 /* Main.storyboard */; };
+		3FC152221E128CFB00AD5030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC152211E128CFB00AD5030 /* Assets.xcassets */; };
+		3FC152251E128CFB00AD5030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC152231E128CFB00AD5030 /* LaunchScreen.storyboard */; };
+		3FC1522E1E128E1F00AD5030 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC1522D1E128E1F00AD5030 /* MapKit.framework */; };
+		3FC152301E128FB400AD5030 /* Santa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1522F1E128FB400AD5030 /* Santa.swift */; };
+		3FC152321E128FDA00AD5030 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC152311E128FDA00AD5030 /* Location.swift */; };
+		3FC152341E12918900AD5030 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC152331E12918900AD5030 /* MapManager.swift */; };
+		3FC152361E12957300AD5030 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC152351E12957300AD5030 /* Stop.swift */; };
+		3FC152381E12970400AD5030 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC152371E12970400AD5030 /* Activity.swift */; };
+		3FC1523A1E129AB500AD5030 /* SantaRealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC152391E129AB500AD5030 /* SantaRealmManager.swift */; };
+		96F2CF7A088D8C1B7FEAFEBE /* Pods_SongSanta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433EC36D92A6C84272C4A2BE /* Pods_SongSanta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FC152171E128CFB00AD5030 /* SongSanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongSanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC1521A1E128CFB00AD5030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC1521C1E128CFB00AD5030 /* SantaTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaTrackerViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		3FC1521F1E128CFB00AD5030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC152211E128CFB00AD5030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC152241E128CFB00AD5030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC152261E128CFB00AD5030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC1522D1E128E1F00AD5030 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3FC1522F1E128FB400AD5030 /* Santa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Santa.swift; sourceTree = "<group>"; };
+		3FC152311E128FDA00AD5030 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3FC152331E12918900AD5030 /* MapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		3FC152351E12957300AD5030 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		3FC152371E12970400AD5030 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		3FC152391E129AB500AD5030 /* SantaRealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SantaRealmManager.swift; sourceTree = "<group>"; };
+		3FC1523B1E129C4300AD5030 /* SongSanta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SongSanta.entitlements; sourceTree = "<group>"; };
+		433EC36D92A6C84272C4A2BE /* Pods_SongSanta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SongSanta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694BF3509AD5F4E75BD3CB63 /* Pods-SongSanta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongSanta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SongSanta/Pods-SongSanta.debug.xcconfig"; sourceTree = "<group>"; };
+		D7EA9A2C0575EE9BAF2DA92A /* Pods-SongSanta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongSanta.release.xcconfig"; path = "Pods/Target Support Files/Pods-SongSanta/Pods-SongSanta.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC152141E128CFB00AD5030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC1522E1E128E1F00AD5030 /* MapKit.framework in Frameworks */,
+				96F2CF7A088D8C1B7FEAFEBE /* Pods_SongSanta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC1520E1E128CFB00AD5030 = {
+			isa = PBXGroup;
+			children = (
+				3FC152191E128CFB00AD5030 /* SongSanta */,
+				3FC152181E128CFB00AD5030 /* Products */,
+				3FC1522C1E128E1F00AD5030 /* Frameworks */,
+				7128A904D1F9E0A32A53E037 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC152181E128CFB00AD5030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC152171E128CFB00AD5030 /* SongSanta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC152191E128CFB00AD5030 /* SongSanta */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1523B1E129C4300AD5030 /* SongSanta.entitlements */,
+				3FC1521A1E128CFB00AD5030 /* AppDelegate.swift */,
+				3FC1521C1E128CFB00AD5030 /* SantaTrackerViewController.swift */,
+				3FC1521E1E128CFB00AD5030 /* Main.storyboard */,
+				3FC152211E128CFB00AD5030 /* Assets.xcassets */,
+				3FC152231E128CFB00AD5030 /* LaunchScreen.storyboard */,
+				3FC152261E128CFB00AD5030 /* Info.plist */,
+				3FC1522F1E128FB400AD5030 /* Santa.swift */,
+				3FC152311E128FDA00AD5030 /* Location.swift */,
+				3FC152331E12918900AD5030 /* MapManager.swift */,
+				3FC152351E12957300AD5030 /* Stop.swift */,
+				3FC152371E12970400AD5030 /* Activity.swift */,
+				3FC152391E129AB500AD5030 /* SantaRealmManager.swift */,
+			);
+			path = SongSanta;
+			sourceTree = "<group>";
+		};
+		3FC1522C1E128E1F00AD5030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1522D1E128E1F00AD5030 /* MapKit.framework */,
+				433EC36D92A6C84272C4A2BE /* Pods_SongSanta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7128A904D1F9E0A32A53E037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694BF3509AD5F4E75BD3CB63 /* Pods-SongSanta.debug.xcconfig */,
+				D7EA9A2C0575EE9BAF2DA92A /* Pods-SongSanta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC152161E128CFB00AD5030 /* SongSanta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC152291E128CFB00AD5030 /* Build configuration list for PBXNativeTarget "SongSanta" */;
+			buildPhases = (
+				428B8745EFEEE47C5158AB84 /* [CP] Check Pods Manifest.lock */,
+				3FC152131E128CFB00AD5030 /* Sources */,
+				3FC152141E128CFB00AD5030 /* Frameworks */,
+				3FC152151E128CFB00AD5030 /* Resources */,
+				2494B82CB911F4283B3B5CB0 /* [CP] Embed Pods Frameworks */,
+				63FCAB64A1C945E398D5913E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongSanta;
+			productName = SongSanta;
+			productReference = 3FC152171E128CFB00AD5030 /* SongSanta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC1520F1E128CFB00AD5030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "이재성";
+				TargetAttributes = {
+					3FC152161E128CFB00AD5030 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 99LMB5P4DJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3FC152121E128CFB00AD5030 /* Build configuration list for PBXProject "SongSanta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC1520E1E128CFB00AD5030;
+			productRefGroup = 3FC152181E128CFB00AD5030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC152161E128CFB00AD5030 /* SongSanta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC152151E128CFB00AD5030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC152251E128CFB00AD5030 /* LaunchScreen.storyboard in Resources */,
+				3FC152221E128CFB00AD5030 /* Assets.xcassets in Resources */,
+				3FC152201E128CFB00AD5030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2494B82CB911F4283B3B5CB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SongSanta/Pods-SongSanta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		428B8745EFEEE47C5158AB84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63FCAB64A1C945E398D5913E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SongSanta/Pods-SongSanta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC152131E128CFB00AD5030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC1521D1E128CFB00AD5030 /* SantaTrackerViewController.swift in Sources */,
+				3FC152341E12918900AD5030 /* MapManager.swift in Sources */,
+				3FC152381E12970400AD5030 /* Activity.swift in Sources */,
+				3FC1521B1E128CFB00AD5030 /* AppDelegate.swift in Sources */,
+				3FC152321E128FDA00AD5030 /* Location.swift in Sources */,
+				3FC1523A1E129AB500AD5030 /* SantaRealmManager.swift in Sources */,
+				3FC152301E128FB400AD5030 /* Santa.swift in Sources */,
+				3FC152361E12957300AD5030 /* Stop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FC1521E1E128CFB00AD5030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC1521F1E128CFB00AD5030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC152231E128CFB00AD5030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC152241E128CFB00AD5030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC152271E128CFB00AD5030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC152281E128CFB00AD5030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC1522A1E128CFB00AD5030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694BF3509AD5F4E75BD3CB63 /* Pods-SongSanta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SongSanta/SongSanta.entitlements;
+				DEVELOPMENT_TEAM = 99LMB5P4DJ;
+				INFOPLIST_FILE = SongSanta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.kaskay.SongSanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FC1522B1E128CFB00AD5030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EA9A2C0575EE9BAF2DA92A /* Pods-SongSanta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SongSanta/SongSanta.entitlements;
+				DEVELOPMENT_TEAM = 99LMB5P4DJ;
+				INFOPLIST_FILE = SongSanta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.kaskay.SongSanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC152121E128CFB00AD5030 /* Build configuration list for PBXProject "SongSanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC152271E128CFB00AD5030 /* Debug */,
+				3FC152281E128CFB00AD5030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC152291E128CFB00AD5030 /* Build configuration list for PBXNativeTarget "SongSanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC1522A1E128CFB00AD5030 /* Debug */,
+				3FC1522B1E128CFB00AD5030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC1520F1E128CFB00AD5030 /* Project object */;
+}
